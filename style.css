@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+}
+body{
+    background-color: #141B41;
+    color: white;
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+#cabecario{
+    display: flex;
+    flex-direction: column;
+}
+#informacoes{
+    display: flex;
+    gap: 15em;
+    align-items: center;
+}
+#buttons{
+    display: flex;
+    gap: 10em;
+}
+#buttons a{
+    color: white;
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+}
+#quadadro{
+    background-color: white;
+    height: 0.5em;
+}
+#quadadro p{
+    display: none;
+}
+#sobre{
+    background-image: url(./imgs/fundo.png);
+    height: 45em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+#sobre h3{
+    font-size: larger;
+}
+#cont{
+    display: flex;
+    justify-content: space-between;
+}
+#cont img{
+    width: 25em;
+    border-radius: 4em;
+}
+#experiencia{
+    background-color: #0C1025;
+    padding: 4em;
+    display: flex;
+    gap: 10em;
+    flex-direction: column;
+}
+#imagens{
+    display: flex;
+    gap: 3em;
+}
+.borda{
+    border: 10px solid #141B41;
+    
+    background-color: white;
+    width: 8em;
+    display: flex;
+    justify-content: center;
+}
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-size: 4em;
+}
+.texto{
+    font-size: 1.5em;
+}
