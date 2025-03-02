@@ -1,0 +1,32 @@
+#principal{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+}
+#nome{
+    display: flex;
+     gap: 1em;
+}
+.box-check{
+    display: flex;
+    border: 1px solid;
+    width: 10em;
+}
+#Query{
+    display: flex;
+    gap: 1em;
+}
+#principal button{
+    width: 10em;
+    margin-left: 7em;
+}
+.inputs{
+    border-radius: 1em;
+    height: 3em;
+}
+#nomes{
+    width: 15em;
+}
+#email{
+    width: 32em;
+}

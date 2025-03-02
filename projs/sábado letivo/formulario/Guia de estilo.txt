@@ -1,0 +1,23 @@
+## Cores
+
+### Primárias
+
+- Green 200 (lighter): hsl(148, 38%, 91%)
+- Green 600 (medium): hsl(169, 82%, 27%)
+- Red: hsl(0, 66%, 54%)
+
+### Neutras
+
+- White: hsl(0, 0%, 100%)
+- Grey 500 (medium): hsl(186, 15%, 59%)
+- Grey 900 (darker): hsl(187, 24%, 22%)
+
+## Tipografia
+
+### Body Copy
+
+- tamanho da fonte (labels): 16px
+
+### Fonte
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla)

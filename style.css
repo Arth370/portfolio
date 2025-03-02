@@ -47,7 +47,7 @@ body{
     gap: 2em;
 }
 #sobre h3{
-    font-size: larger;
+    font-size: 2em;
 }
 #cont{
     display: flex;
@@ -83,6 +83,30 @@ body{
 .title{
     font-size: 4em;
 }
-.texto{
-    font-size: 1.5em;
+h3{
+    font-size: 2em;
+}
+#projetos{/*projetos*/
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 10em;
+}
+#idealize{/*idealize projeto*/
+    display: flex;
+    gap: 4em;
+    justify-content: space-between;
+}
+.imgProj{
+    border-radius: 8em;
+    width: 50em;
+    cursor: pointer;
+}
+.imgProj:hover{
+    border: 10px solid;
+    border-color: #0C1025;
+}
+#receita{
+    display: flex;
+    justify-content: space-between;
 }
