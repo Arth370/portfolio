@@ -95,7 +95,8 @@ h3{
 #idealize{/*idealize projeto*/
     display: flex;
     gap: 4em;
-    justify-content: space-between;
+   flex-direction: column;
+   align-items: center;
 }
 .imgProj{
     border-radius: 8em;
@@ -106,7 +107,12 @@ h3{
     border: 10px solid;
     border-color: #0C1025;
 }
-#receita{
+.botao{
+    background-color: blue;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#botaozes{
     display: flex;
-    justify-content: space-between;
+    gap: 10em;
 }
