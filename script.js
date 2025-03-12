@@ -1,3 +1,4 @@
+/*contato*/
 const zap = document.querySelector('#zap')
 const git = document.querySelector('#git')
 const link = document.querySelector('#link')
@@ -32,7 +33,7 @@ insta.addEventListener('click',()=>{
 })
 
 
-
+/*projeto trocar*/
 const flechaL=document.querySelector('#ArrowL')
 const flechaD=document.querySelector('#ArrowD')
 const img = document.querySelector('#Imga')
@@ -47,7 +48,7 @@ flechaD.addEventListener('click',()=>{
 })
 flechaL.addEventListener('click',()=>{
     clickinho.href="./projs/Projeto-integrador/Projeto/proj.html"
-    img.src="./imgs/ProjImg.jpg"
+    img.src="./imgs/ProjImg.webp"
     texto.textContent="Idealize:"
     inform.textContent="Projeto feito para o Senai em 2024"
 })

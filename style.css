@@ -38,7 +38,7 @@ body{
     display: none;
 }
 #sobre{
-    background-image: url(./imgs/fundo.png);
+    background-image: url(./imgs/fundo.webp);
     height: 45em;
     background-repeat: no-repeat;
     background-size: cover;
